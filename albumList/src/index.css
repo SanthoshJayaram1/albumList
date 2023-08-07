@@ -29,7 +29,7 @@ button{
 .navbar{
     width: 100%;
     padding: 20px 10px;
-    background-color: #f5f6f7;
+    background-color: #c2d7ec;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -68,7 +68,7 @@ button{
 .albums-list{
     width: 70%;
     margin: auto;
-    padding-top: 73px;
+    padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -90,8 +90,8 @@ button{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .list:hover{
-    background-color: #b4e2f5;
-    transition-duration: 0.7s;
+    background-color:  #c2d7ec;
+    transition-duration: 0.6s;
 }
 
 .list h3{
