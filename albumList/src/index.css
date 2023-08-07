@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F2F2F2;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+input{
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Navbar component style */
+.navbar{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #f5f6f7;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar h2{
+    /* background-color: #f8f2f2; */
+    width: fit-content;
+    padding: 2px;
+}
+.first-half{
+    margin-right: 2px;
+}
+/* .brand-first-half:hover{
+    
+} */
+.last-half{
+    background-color: #000000;
+    color: #f5f6f7;
+
+}
+.navbar button{
+    background-color: transparent;
+    border-radius: 12px;
+    color: #111010;
+    border: 2px solid #111111;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.navbar button:hover{
+    color:rgb(255, 255, 255);
+    transition-duration: 0.8s;
+    background-color:rgb(5, 5, 5);
+}
+
+/* AlbumsList component style */
+.albums-list{
+    width: 70%;
+    margin: auto;
+    padding-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* List component style */
+.list{
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-bottom:5px ;
+    margin-top:5px ;
+    color: rgb(78, 64, 64);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.list:hover{
+    background-color: #b4e2f5;
+    transition-duration: 0.7s;
+}
+
+.list h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.button-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.update-btn{
+    background-color: rgb(68, 61, 61);
+    border-radius: 10px;
+    color: white;
+    border:0.1px solid rgb(68, 61, 61);
+    border: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border:0.1px solid rgb(68, 61, 61);
+}
+.update-btn:hover{
+    background-color: white;
+    transition-duration: 0.6s;
+    color: black;
+    border:0.1px solid rgb(68, 61, 61);
+}
+.delete-btn{
+    cursor: pointer;
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(233, 36, 36);
+    color: white;
+    border:0.1px solid rgb(233, 36, 36);
+}
+.delete-btn:hover{
+    color:red;
+    transition-duration: 0.6s;
+    background-color:white;
+    border:0.1px solid #0f0f0f;
+}
+
+/* UpdateAlbum component style */
+.update-album{
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    padding-top: 100px;
+    color: white;
+}
+.form-container{
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 35px;
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    /* margin:200px; */
+}
+.inp-container{
+    margin: 10px;
+}
+.form-container button{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+    border:0.1px solid green;
+}
+.form-container button:hover{
+    background-color:white;
+    transition-duration: 0.6s;
+    color: black;
+    border:0.1px solid rgb(68, 61, 61);
+}
+
+/* addAlbum container style */
+.addalbum-container{
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    padding-top: 100px;
+    color: white;
+}
+.addalbum-form{
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 35px;
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+}
+.addalbum-form button{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+    border:0.1px solid green;
+}
+.addalbum-form button:hover{
+    background-color:white;
+    transition-duration: 0.6s;
+    color: black;
+    border:0.1px solid rgb(68, 61, 61);
+}
